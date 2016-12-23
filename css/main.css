@@ -1,0 +1,367 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.top{
+	top: 700px;
+	left: 250px;
+	position: absolute;
+}
+/* footer opmaak */
+footer{
+	width: 100%;
+	height: 18px;
+	position: fixed;
+	padding: 5px;
+	left: 0;
+	bottom: 0px;
+	background-color: #6E6E6E;
+	color: #e1e1e1;
+	text-align: center;
+}
+
+nav{
+	width: 100%;
+	height: 50px;
+	background: #e4e4e4;
+	text-align: center;
+}
+
+#button{
+	width: 1400px;
+	background: #434343;
+	color: #E0E0E0;
+	margin-top: 10px;
+}
+
+article{
+	width: 1610px;
+	height: 800px;
+	float: left;
+	margin-top: 15px;
+}
+
+aside{
+	width: 300px;
+	height: 848px;
+	background-color: #464646;
+	float: left;
+	margin-top: 15px;
+	border: 1px solid #aaaaaa;
+    border-radius: 4px;
+}
+
+#wrapper{
+	width: 1920px;
+	height: 870px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	/*overflow: hidden;*/
+}
+
+/* opmaak jqueryui */
+
+.toggler {
+    width: 1600px;
+    height: 850px;
+	overflow: hidden;
+  }
+  #button {
+    padding: .5em 1em;
+    text-decoration: none;
+  }
+  #effect {
+    position: relative;
+    height: 835px;
+    padding: 0.4em;
+  }
+  #effect h3 {
+    margin: 0;
+    padding: 0.4em;
+    text-align: center;
+  }
+  /* einde jqueryui */
+  
+  /**** main ****/
+  .start{
+	  position: absolute;
+	  left: -50px;
+	  top: 467px;
+  }
+	#background{ /*achtergrond afbeelding trein spoor*/
+		position: absolute;
+		top: 48px;
+		left: 0px;
+	}
+	#s01{ /*-----H-----*/
+		position: absolute;
+		left: 1310px;
+		top: 68px;
+	}
+	#s11{ /*-----A-----*/
+		position: absolute;
+		left: 1370px;
+		top: 327px;
+	}
+	
+	#s21{ /*-----B-----*/
+		position: absolute;
+		left: 1370px;
+		top: 367px;
+	}
+	
+	#s31{ /*-----C-----*/
+		position: absolute;
+		left: 1370px;
+		top: 411px;
+	}
+	
+	#s41{ /*-----D-----*/
+		position: absolute;
+		left: 1370px;
+		top: 453px;
+	}
+	
+	#s51{ /*-----E-----*/
+		position: absolute;
+		left: 1370px;
+		top: 497px;
+	}
+	#s61{ /*-----F-----*/
+		position: absolute;
+		left: 1370px;
+		top: 537px;
+	}
+	#s52{/*-----personen-perron-G-----*/
+		position: absolute;
+		left: 740px;
+		top: 510px;
+	}
+	#s71{ /*-----I-----*/
+		position: absolute;
+		left: 1120px;
+		top: 801px;
+	}
+	#s22{ /*----wissel-IN/UIT----*/
+		position: absolute;
+		left: 1270px;
+		top: 367px;
+	}
+	#s24{ /*--Wacht peron--*/
+		position: absolute;
+		left: 1020px;
+		top: 366px;
+	}
+	#s32{ /*-----wisel-UIT-6-----*/
+		position: absolute;
+		left: 1215px;
+		top: 410px;
+	}
+	#s34{ /*-----wisel-UIT-4-----*/
+		position: absolute;
+		left: 940px;
+		top: 410px;
+	}
+	#s37{ /*-----wisel-UIT-1-----*/
+		position: absolute;
+		left: 620px;
+		top: 410px;
+	}
+	#s42{ /*-----Wissel-IN-7-----*/
+		position: absolute;
+		left: 1230px;
+		top: 453px;
+	}
+	#s43{ /*-----Wissel-IN-6-----*/
+		position: absolute;
+		left: 1030px;
+		top: 453px;
+	}
+	#s45{ /*-----Wissel-IN-4-----*/
+		position: absolute;
+		left: 800px;
+		top: 453px;
+	}
+	#s46{ /*-----Wissel-IN-3-----*/
+		position: absolute;
+		left: 540px;
+		top: 453px;
+	}
+	#s47{ /*-----Wissel-IN-2-----*/
+		position: absolute;
+		left: 540px;
+		top: 453px;
+	}
+	#s48{ /*-----Wissel-IN-1-----*/
+		position: absolute;
+		left: 600px;
+		top: 453px;
+	}
+	#s49{/*-----sein-IN-9-----*/
+		position: absolute;
+		left: 480px;
+		top: 453px;
+	}
+	
+	#s410{/*-----sein-IN-8-----*/
+		position: absolute;
+		left: 420px;
+		top: 453px;
+	}
+	
+	#s411{/*-----sein-IN-7-----*/
+		position: absolute;
+		left: 360px;
+		top: 453px;
+	}
+	
+	#s412{/*-----sein-IN-6-----*/
+		position: absolute;
+		left: 300px;
+		top: 453px;
+	}
+	
+	#s413{/*-----sein-IN-5-----*/
+		position: absolute;
+		left: 240px;
+		top: 453px;
+	}
+	
+	#s414{/*-----sein-IN-4-----*/
+		position: absolute;
+		left: 180px;
+		top: 453px;
+	}
+	
+	#s415{/*-----sein-IN-3-----*/
+		position: absolute;
+		left: 120px;
+		top: 453px;
+	}
+	
+	#s416{/*-----sein-IN-2-----*/
+		position: absolute;
+		left: 60px;
+		top: 453px;
+	}
+	
+	#s417{/*-----sein-IN-1-----*/
+		position: absolute;
+		left: 0px;
+		top: 453px;
+	}
+	/* begin van de opmaak borden*/
+	#a{
+		position: absolute;
+		left: 1545px;
+		top: 315px;
+	}
+	
+	#b{
+		position: absolute;
+		left: 1545px;
+		top: 355px;
+	}
+	
+	#c{
+		position: absolute;
+		left: 1545px;
+		top: 400px;
+	}
+	
+	#d{
+		position: absolute;
+		left: 1545px;
+		top: 443px;
+	}
+	
+	#e{
+		position: absolute;
+		left: 1545px;
+		top: 488px;
+	}
+	
+	#f{
+		position: absolute;
+		left: 1545px;
+		top: 526px;
+	}
+	#g{
+		position: absolute;
+		left: 1210px;
+		top: 510px;
+	}
+	
+	#h{
+		position: absolute;
+		left: 1545px;
+		top: 65px;
+	}
+	
+	#i{
+		position: absolute;
+		left: 1545px;
+		top: 800px;
+	}
+	
+	#j{
+		position: absolute;
+		left: 1050px;
+		top: 340px;
+	}
+
+	/* bordjes*/
+  /**** einde main ****/
+  
+  /* Info treinen */
+ .ui-widget-header{
+	 background: #434343!important;
+	 color: #e0e0e0!important;
+ }
+ h2{
+	 text-align: center;
+	 font-size: 30px;
+	 color: white;
+ }
+ .info-treinen{
+	 height: 550px;
+	 color: white;
+	 font-size: 25px;
+	 border: 5px white solid;
+	 border-top-left-radius: 3px;
+	 border-top-right-radius: 3px;
+	 overflow: auto;
+ }
+ .info-detail{
+	 height: 174px;
+	 color: white;
+	 font-size: 25px;
+	 border: 5px white solid;
+	 background: #464646;
+ }
+ .info-vertraging{
+	 height: 100px;
+	 color: white;
+	 font-size: 25px;
+	 border: 5px white solid;
+	 border-bottom-left-radius: 3px;
+	 border-bottom-right-radius: 3px;
+	 background-color: #464646;
+ }
+ span:hover{
+	 cursor: pointer;
+ }
+ 
+ #informatie-vertraging{
+	 padding: 25px;
+ }
+ 
+#informatie_detail{
+	 padding: 25px;
+ }
+  .informatie{
+	padding: 25px; 
+ }
+ /* eind info treinen */
